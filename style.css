@@ -1,0 +1,32 @@
+html, body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+canvas
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#settings
+{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  font-family: verdana;
+  background: #444444;
+  opacity: 0.3;
+  transition: 0.25s;
+}
+
+#settings:hover
+{
+  opacity: 1;
+  transition: 0.25s;
+}
